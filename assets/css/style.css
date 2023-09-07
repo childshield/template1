@@ -137,7 +137,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 .scrolled-offset {
@@ -645,65 +645,65 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us
+# Mission
 --------------------------------------------------------------*/
-.about .content h3 {
+.mission .content h3 {
   font-weight: 700;
   font-size: 28px;
 }
 
-.about .content ul {
+.mission .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.mission .content ul li {
   padding-bottom: 10px;
 }
 
-.about .content ul i {
+.mission .content ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #5cb874;
 }
 
-.about .content p:last-child {
+.mission .content p:last-child {
   margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Focus Areas
 --------------------------------------------------------------*/
-.why-us {
-  padding: 0;
+.focus-areas {
+  padding: 5px;
 }
 
-.why-us .row {
+.focus-areas .row {
   overflow: hidden;
 }
 
-.why-us .content-item {
+.focus-areas .content-item {
   padding: 40px;
   border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
   margin: -1px;
 }
 
-.why-us .content-item span {
+.focus-areas .content-item span {
   display: block;
   font-size: 24px;
   font-weight: 400;
   color: #6ec083;
 }
 
-.why-us .content-item h4 {
+.focus-areas .content-item h4 {
   font-size: 26px;
   font-weight: 300;
   padding: 0;
   margin: 20px 0;
 }
 
-.why-us .content-item p {
+.focus-areas .content-item p {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
@@ -711,7 +711,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  .why-us .content-item {
+  .focus-areas .content-item {
     padding: 40px 0;
   }
 }
@@ -746,9 +746,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Events
 --------------------------------------------------------------*/
-.services .icon-box {
+.events .icon-box {
   
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -756,7 +756,7 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
-.services .icon-box .icon {
+.events .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -767,95 +767,95 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.events .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.events .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .icon-box .icon svg path {
+.events .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.events .icon-box h4 {
   font-weight: 500;
   margin: 10px 15px 15px 0;
   font-size: 18px;
 }
 
-.services .icon-box h4 a {
+.events .icon-box h4 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box h4 a:hover {
+.events .icon-box h4 a:hover {
   color: #5cb874;
 }
 
-.services .icon-box p {
+.events .icon-box p {
   text-align: right;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.events .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .iconbox-blue i {
+.events .iconbox-blue i {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.events .iconbox-blue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
+.events .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
 
-.services .iconbox-orange i {
+.events .iconbox-orange i {
   color: #ffa76e;
 }
 
-.services .iconbox-orange:hover .icon i {
+.events .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
+.events .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
 
-.services .iconbox-pink i {
+.events .iconbox-pink i {
   color: #e80368;
 }
 
-.services .iconbox-pink:hover .icon i {
+.events .iconbox-pink:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-pink:hover .icon path {
+.events .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
 
-.services .iconbox-yellow i {
+.events .iconbox-yellow i {
   color: #ffbb2c;
 }
 
-.services .iconbox-yellow:hover .icon i {
+.events .iconbox-yellow:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-yellow:hover .icon path {
+.events .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
 
@@ -863,7 +863,7 @@ section {
   color: #ff5828;
 }
 
-.services .iconbox-red:hover .icon i {
+.events .iconbox-red:hover .icon i {
   color: #fff;
 }
 
@@ -871,15 +871,15 @@ section {
   fill: #ff5828;
 }
 
-.services .iconbox-teal i {
+.events .iconbox-teal i {
   color: #11dbcf;
 }
 
-.services .iconbox-teal:hover .icon i {
+.events .iconbox-teal:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-teal:hover .icon path {
+.events .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
 
@@ -1124,9 +1124,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Partners
 --------------------------------------------------------------*/
-.team .member {
+.partners .member {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
@@ -1134,53 +1134,53 @@ section {
   background: #fff;
 }
 
-.team .member img {
+.partners .member img {
   max-width: 60%;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   margin: 0 0 30px 0;
 }
 
-.team .member h4 {
+.partners .member h4 {
   font-weight: 500;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.team .member a {
+.partners .member a {
   color: #222222;
 }
 
-.team .member a:hover{
+.partners .member a:hover{
   color: #5cb874;
 }
 
-.team .member span {
+.partners .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.team .member p {
+.partners .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
 }
 
-.team .member .social {
+.partners .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.partners .member .social a {
   color: #919191;
   transition: 0.3s;
 }
 
-.team .member .social a:hover {
+.partners .member .social a:hover {
   color: #5cb874;
 }
 
-.team .member .social i {
+.partners .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
