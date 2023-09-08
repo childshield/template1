@@ -1,0 +1,3 @@
+AddHandler application/x-httpd-ea-php55 .htm .html .shtml
+AddHandler application/x-httpd-ea-php56 .htm .html .shtml
+AddHandler application/x-httpd-ea-php70 .htm .html .shtml
