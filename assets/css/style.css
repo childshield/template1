@@ -427,10 +427,11 @@ h6 {
 }
 
 #hero h2 {
-  color: chartreuse;
+  color:chartreuse;
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
+  animation-delay: 0.4s;
 }
 
 #hero p {
